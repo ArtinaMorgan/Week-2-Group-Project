@@ -1,6 +1,31 @@
 
-ul {
+
+nav ul li{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    display: inline;
+    float:none;
+    background-color: grey;
+    overflow:hidden;
+  }
+  ul li em{
+    font-weight: 900;
+  }
+
+  section{
+    margin-bottom: 15px;
+
+  }
+
+  .basic-div{
+    padding: 10px;
+  }
+
+  .team-member{
+
+    background-color: #d3d3d3;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
